@@ -1,12 +1,9 @@
-The problem with creating a web based( client - server architecture ) voting application is that the votes can be changed in the database because the server,
+The problem with creating a web based (client - server architecture) voting application is that the votes can be changed in the database because the server,
 or we should say one entity has the control over it, as well as the code.
-
-That's why a much better solution to a voting app is a decent
 
 We want to ensure that every vote is counted and counted only once and that the candidate with most votes will actually be the winner.
 
-
-How does the blockchain solves these problems?
+How does the blockchain solve these problems?
 
 The data is decentralizes, destributed among the nodes operating on the blockchain.
 
