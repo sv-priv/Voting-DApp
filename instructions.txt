@@ -1,0 +1,31 @@
+The main code is written inside of a smart contract using solidity.
+
+Frontend with html, js and css, but instaed of connecting it to a server we will connect it to a local blockchain network that we will install
+Code how to do that inside of a smart contract.
+Compile the code in Ethereum Virtual Machine and then deploy it toa the blockchain
+
+1. install node
+2. truffle is a framework that is going to allow us to create decentrilizes applications on the Ethereum network
+suite of tools to write our smart contracts, test them and deploy them
+npm install -g truffle
+3.ganache (gui for ethereum blockchain) (ganache is an electron app) - local and memory blockchain for developer purposes
+4.metamask - in order to use the blockchain we need to connect to it, we are going to connect with metamask, connect to the local ethereum network,
+and deploy the contract there.
+
+using truffle petshop -> package of boilerplate code
+
+/ contracts where out smart conttracts will boilerplate
+/ migrations where migrations will live when deploy smart contract to blockchain( migrations to change database), we need a migration because basically we are
+changing the state of the blockchain like changing the state of a database.
+
+/src - for client side applications
+
+truffle.js main config file for truffle
+
+
+truffle console
+
+truffle migrate --reset
+whenever we change the code for the smart contract
+
+web3 communicating from the frontend to the blockchain
